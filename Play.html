@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<center>
+				
+		<form action="ChoosingStrike" method="get" name="ChoosingStrike">
+			<h1> CARROM GAME </h1>
+			<div > <h2 class="score"> Score Card </h2> </div>
+			
+			<table name="table" class="scoreButton">
+			<tr><td>
+			<input type="submit" name="counter1" value="0"></td>&nbsp;&nbsp;<td><input type="submit" name="counter2" value="0"></td></tr>		
+			</table>
+			<pre><label>Player1</label>	 <label>Player2</label></pre>
+			
+			<table class="tableAlign">
+				<tr><td class="inp"><input onclick="strike1()" type="submit" name="Strike1" value="Strike1"></td>
+					 <td class="inp"><input onclick="strike2()" type="submit" name="Strike2" value="Strike2" ></td></tr>
+
+				<tr><td class="inp"><input type="submit" name="MultiStrike1" value="MultiStrike1" ></td>
+					<td class="inp"> <input type="submit" name="MultiStrike2" value="MultiStrike2" ></td></tr>
+
+				<tr><td class="inp"><input type="submit" name="RedStrike1" value="RedStrike1" ></td>
+					<td class="inp"> <input type="submit" name="RedStrike2" value="RedStrike2" ></td></tr>
+
+				<tr><td class="inp"><input type="submit" name="StrikerStrike1" value="StrikerStrike1" ></td>
+					<td class="inp"> <input type="submit" name="StrikerStrike2" value="StrikerStrike2" ></td></tr>
+
+				<tr><td class="inp"><input type="submit" name="DefunctCoin1" value="DefunctCoin1" ></td>
+					<td class="inp"> <input type="submit" name="DefunctCoin2" value="DefunctCoin2" ></td></tr>
+
+				<tr><td class="inp"><input type="submit" name="None1" value="None1" ></td>
+					<td class="inp"> <input type="submit" name="None2" value="None2" ></td></tr>
+			</table>
+			
+		</form>
+		<script src="scriptFile.js">
+			
+			
+		</script>
+		
+
+
+		
+	</center>
+	
+</body>
+</html>

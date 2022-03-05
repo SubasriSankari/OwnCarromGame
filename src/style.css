@@ -1,0 +1,58 @@
+body{
+	color:white; padding:0; 
+	margin:0;
+	background-image:url('http://www.carromcoaching.com/images/training/14687-k12tD.jpg')
+}
+h1{
+	color:white;
+	font-weight:bold;
+	padding: 10px 0px;
+}
+.score{
+	color:black;
+}
+.tableAlign{
+	border-collapse:collapse;
+	margin: 20px 10px;
+	font-size: 2em;
+	min-width: 200px;
+	font-weight:bold;
+}
+
+form input[type='submit']{
+	width: 110px;
+	height: 30px;
+	padding: 7px;
+	display: inline-block;
+	background:linear-gradient(to bottom left, #0099ff 4%, #66ff33 92%);
+	background-color:#ccccff;
+	border-radius:10px;
+	font-size:15px;
+	text-align: center;
+	font-weight: bold;
+}
+
+form button{
+	width: 110px;
+	height: 30px;
+	padding: 7px;
+	display: inline-block;
+	background: linear-gradient(to bottom left, #ff66cc 4%, #ffff66 92%);
+	background-color:#ccccff;
+	border-radius:10px;
+}
+.scoreButton{
+	border:solid;
+	padding: 0 10px;
+	background-color:#ffff99;
+	border-radius:10px;	
+}
+label{
+	font-weight:bold;
+	border-style:inset;
+	border-radius:5px; 
+	font-size:18px;
+	color:; 
+	border-color:white;
+	background-color:#ff6699;
+}
